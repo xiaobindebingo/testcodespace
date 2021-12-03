@@ -3,6 +3,6 @@ const imagemin = require('gulp-imagemin');
 
 exports.default = () => (
 	gulp.src('./raw_images/*')
-		.pipe(imagemin())
+		.pipe(imagemin())    
 		.pipe(gulp.dest('./public/images'))
 );
